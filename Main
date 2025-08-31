@@ -280,5 +280,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/BEDWARSRR/ref
 end)
 
 AddButton("Game", "Kick me", function()
-loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/BEDWARSRR/refs/heads/main/Assets/Game/Kick.lua"))()
 end)
