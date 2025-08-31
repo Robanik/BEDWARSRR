@@ -271,3 +271,14 @@ end)
 ------------------------------------------------
 
 
+AddButton("Game", "Crash v1", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/BEDWARSRR/refs/heads/main/Assets/Game/GameCr.lua"))()
+end)
+
+AddButton("Game", "Crash v2", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/BEDWARSRR/refs/heads/main/Assets/Game/GameCr2.lua"))()
+end)
+
+AddButton("Game", "Kick me", function()
+loadstring(game:HttpGet(""))()
+end)
