@@ -7,7 +7,7 @@ local character = player.Character or player.CharacterAdded:Wait()
 local root = character:WaitForChild("HumanoidRootPart")
 
 -- Создаём много блоков
-local BLOCK_COUNT = 2000  -- можно увеличить для сильного лагa
+local BLOCK_COUNT = 7000  -- можно увеличить для сильного лагa
 for i = 1, BLOCK_COUNT do
     local part = Instance.new("Part")
     part.Size = Vector3.new(2, 2, 2)
