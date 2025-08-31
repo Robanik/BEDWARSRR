@@ -254,6 +254,10 @@ AddButton("Combat", "Killaura", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/BEDWARSRR/refs/heads/main/Assets/Combat/Killaura.lua"))()
 end)
 
+AddButton("Combat", "AutoClik", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/BEDWARSRR/refs/heads/main/Assets/Combat/Autoclicker.lua"))()
+end)
+
 ------------------------------------------------
 
 AddButton("Anti", "Anti Ban", function()
