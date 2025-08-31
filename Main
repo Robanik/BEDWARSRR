@@ -241,9 +241,9 @@ end)
 ------------------------------------------------
 
 AddButton("Esp", "Esp Players", function()
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/BEDWARSRR/refs/heads/main/Assets/Esp/Esp%20players.lua"))()
 end)
 
 AddButton("Esp", "Esp Bed", function()
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/BEDWARSRR/refs/heads/main/Assets/Esp/BEDesp.lua"))()
 end)
