@@ -8,7 +8,7 @@ local VALID_KEYS = {
 }
 
 -- 🔗 Ссылка на получение ключа
-local GET_KEY_LINK = "https://discord.gg/sEHz2Ex7"
+local GET_KEY_LINK = "https://discord.gg/r2M6udhY"
 
 local ScreenGui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
 ScreenGui.ResetOnSpawn = false
