@@ -229,3 +229,21 @@ AddTab("Esp")
 AddTab("Combat")
 AddTab("Anti")
 AddTab("Game")
+
+AddButton("Player", "WalkSpeed", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/BEDWARSRR/refs/heads/main/Assets/Player/Walkspeed.lua"))()
+end)
+
+AddButton("Player", "JumpPower", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/BEDWARSRR/refs/heads/main/Assets/Player/Jumppower.lua"))()
+end)
+
+------------------------------------------------
+
+AddButton("Esp", "Esp Players", function()
+
+end)
+
+AddButton("Esp", "Esp Bed", function()
+
+end)
