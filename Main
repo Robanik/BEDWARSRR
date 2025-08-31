@@ -247,3 +247,15 @@ end)
 AddButton("Esp", "Esp Bed", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/BEDWARSRR/refs/heads/main/Assets/Esp/BEDesp.lua"))()
 end)
+
+------------------------------------------------
+
+------------------------------------------------
+
+AddButton("Anti", "Anti Ban", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/BEDWARSRR/refs/heads/main/Assets/Anti/Antiban.lua"))()
+end)
+
+AddButton("Anti", "Anti Kick", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/BEDWARSRR/refs/heads/main/Assets/Anti/Antikick.lua"))()
+end)
